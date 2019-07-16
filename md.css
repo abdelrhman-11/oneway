@@ -1,0 +1,540 @@
+
+/*start navbar*/
+        @media (max-width:767px){
+        
+            .navbar span{
+                display: none;
+            }
+           
+            .navbar ul{
+                float: left;
+                display: block;
+                width: 97%;
+                height: 459px;
+                z-index: 9999999999999999;
+                background: white;
+                color: black;
+                margin-top: 56%;
+                text-align: left;
+                margin-left: -25%;
+                border-radius: 7px;
+                display: none;
+            }
+            .navbar ul li{
+                display: block;
+                text-align: center;
+                line-height: 3;
+            }
+            .navbar .list{
+                display: block;
+            }
+        }
+        @media (min-width:768px){
+           .navbar a{
+            margin-left: -2px;
+           }
+            .inav{
+                display: none;
+            }
+            .navbar ul{
+                position: absolute;
+                left: 26%;
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width:992px){
+            .navbar ul,span{
+                display: block;
+            }
+        }
+        @media (min-width:1200px){
+            .navbar a{
+                margin-left: 80px;
+               }
+            .navbar ul{
+                display: block;
+            }
+            .inav{
+                display: block;
+            }
+
+        }
+/*end navbar*/
+/*****************************************************************/
+
+
+/*Start back*/
+            @media (max-width:767px){
+                .up-flow h1 {
+                    font-size: 33px;
+                    letter-spacing: 4px;
+
+                }
+                .up-flow p{
+                    font-size: 16px;
+                }
+            }
+            @media (min-width:768px){
+                .up-flow h1 {
+                    font-size: 40px;
+                }
+                .up-flow p{
+                    font-size: 16px;
+                }
+            }
+            @media (min-width:992px){
+                .up-flow h1 {
+                    font-size: 55px;
+                }
+                .up-flow p{
+                    font-size: 20px;
+                }
+            }
+            @media (min-width:1200px){
+                .up-flow h1 {
+                    font-size: 55px;
+
+                }
+                .up-flow p{
+                    font-size: 20px;
+                }
+            }
+
+
+/*End back*/
+/*****************************************************************/
+/* start one*/
+            @media (max-width:767px){
+            .one div{
+                width: 100%;
+                height: 550px;
+                margin-bottom: 30px;
+                margin-left: -12px;
+            }
+            }
+            @media (min-width:768px){
+            .one {
+                margin-left: -6px;
+            }
+            .one div{
+                width: 29%;
+                margin-right: 29px;
+            }
+            .one .latter{
+                font-size: 17px;
+            }
+            }
+
+/* End one*/
+/*****************************************************************/
+/*start 3 ways*/
+        @media (max-width:767px){
+        .ways{
+            margin-left: 7%;
+        }
+        .ways div{
+            width: 94%;
+            float: left;
+            display: block;
+            margin-left: 50px;
+            margin-bottom: 32px;
+        }
+        .ways div span{
+            display: block;
+        }
+        }
+
+        @media (min-width:768px){
+        .ways {
+            margin-left: 59px;
+        }
+        .ways div{
+            width: 100%;
+            display: block;
+            text-align: center;
+            height: 200px;
+            line-height: 1.4;
+            margin-top: 20px;
+        }
+        .ways span i{
+            margin-bottom: 24px;
+            margin-left: 1px;
+        }
+        }
+
+        @media (min-width:992px){
+
+        .ways{
+            padding-bottom: 277px;
+            margin: auto;
+            margin-left: 12%;
+        }
+        .ways div{
+            width: 21%;
+            float: left;
+            display: inline-block;
+            margin-right: 12%;
+        }
+        .ways div h2{
+            font-size: 21px;
+        }
+        }
+        @media (min-width:1200px){
+            
+            .ways div{
+                width: 21%;
+            }
+            .ways div span{
+                display: inline-block;
+                margin-left: -184px;
+                margin-top: 9px;
+                margin-bottom: -55px;
+            }
+            .ways div i {
+                float: left;
+                margin-left: -26px;
+                margin-bottom: 0px;
+            }
+        }
+
+/*End 3 ways*/
+/*****************************************************************/
+/*start Testimonials*/
+        @media (max-width:767px){
+            .Testimonials{
+                background: white;
+            }
+            .im{
+                width: 91%;
+                margin-left: 29px;
+                height: 521px;
+            
+            }
+            .cote{
+                display: block;
+                width: 91%;
+                margin-left: 29px;
+                margin-top: 7px;
+                height: 58%;
+            
+            }
+        }
+        @media (min-width:768px){
+        .cote{
+            width: 47%;
+            height: 59%;
+            margin-top: 133px;
+            margin-left: -127px;
+            float: left;
+        }
+        .im{
+            width: 64%;
+            margin-left: 8px;
+        }
+        }
+
+        @media (min-width:992px){
+        .cote{
+        width: 50%;
+        }
+        }
+
+        @media (min-width:1200px){
+        
+            .im{
+                width: 46%;
+                margin-left: 7%;
+            }
+            .cote{
+                width: 46%;
+                height: 50%;
+                margin-top: 178px;
+            }
+        }
+/*End Testimonials*/
+/*****************************************************************/
+
+/*start Testimonials*/
+            @media (max-width:767px){
+            .Destinations{
+                margin-top: 100%;
+            }
+                .Destinations div{
+                width: 100%;
+            } 
+            .Destinations .firstD{
+                display: block;
+            }
+            }
+            @media (min-width:768px){
+                .Destinations div{
+                    width: 44%;
+                } 
+                .Destinations{
+                    width: 90%;
+                }
+            }
+            @media (min-width:992px){
+                .Destinations{
+                    width: 91%;
+                    margin-left: 64px;
+                }
+                .Destinations div{
+                    width: 30%;
+                    margin-right: 24px;
+                }
+            }
+
+            @media (min-width:1200px){
+            .Destinations{
+                margin-left: 8%;
+            }
+            }
+/*End Testimonials*/
+/*****************************************************************/
+/*start Experience*/
+            @media (max-width:767px){
+                .Experience{
+                    top: 305%;
+                    position: relative;
+                }
+                .Experience h2{
+                    left: 5%;
+                    font-size: 29px;
+                    width: 89%;
+                }
+            }
+            @media (min-width:768px){
+                .Experience{
+                    top: 51%;
+                    position: relative;
+                }
+                .Experience h2{
+                    left: 0;
+                    width: 100%;
+                
+                }
+
+            }
+            @media (min-width:992px){
+            .Experience{
+                margin-top: -150px;
+            }
+            }
+            @media (min-width:1200px){
+            .Experience h2{
+                width: 73%;
+                margin-left: 13%;
+            }
+            }
+/*End Experience*/
+/*****************************************************************/
+/*start a services*/
+                @media (max-width:767px){
+                .services{
+                    position: relative;
+                    padding-bottom: 25px;
+                    padding-top: 11%;
+                    top: 274%;
+                }
+
+                .services div{
+                    width: 90%;
+                    display: block;
+                }
+                .ser span{
+                    display: block;
+                    float: left;
+                }
+                .ser i{
+                    font-size: 21px;
+                    color: #ef6c57;
+                    position: relative;
+                    bottom: -24px;
+                    left: -24px;
+
+                }
+
+                }
+
+                @media (min-width:768px){
+                .services{
+                    padding-bottom: 49px;
+                    position: relative;
+                }
+                    .ser div{
+                    width: 40%;
+                    margin-left: 3%;
+                    margin-right: 7%;
+                }
+                }
+
+                @media (min-width:1200px){
+                .ser div{
+                    width: 23%;
+                    }
+                }
+/*End a services*/
+/*****************************************************************/
+/*Start blog*/
+                @media (max-width:767px){
+                    .blog{
+                        width: 94%;
+                        position: relative;
+                        top: 269%;
+                        padding: 19px;
+                    
+                    }
+                    .blog .blogb{
+                        width: 100%;
+                        float: left;
+                        margin-left: 14px;
+                    }
+                    .blog .bloga{
+                        width: 100%;
+                        float: left;
+                        margin-left: 14px;
+                    }
+                    .blog span{
+                        font-size: 14px;
+
+                    }
+                    .blog .news{
+                        float: left;
+                    }
+        
+                }
+                @media (min-width:768px) and (max-width:1200px)
+                {
+                    .blog{
+                        width: 92%;
+                    }
+                    .blog .bloga,.blogb{
+                        width: 45%;
+                        margin-left: 20px;
+                        margin-right: 2%;
+                    }
+                    .blog .blogb img {
+                        height: 37%;
+                }
+                .blog .bloga img {
+                    height: 37%;
+                }
+                .blogb{
+                    position: absolute;
+                    float: left;
+                    right: 0;
+                }
+
+                .bloga{
+                    position: absolute;
+                }
+                .blog span{
+                    width: 100%;
+                    margin-top: 2%;
+                    color: #565656;
+                    font-size: 13px;
+                }
+                .butt{
+                    position: relative;
+                    top: 64%;
+                    left: 2%;
+                }
+                }
+/*End blog*/
+/*****************************************************************/
+/*start book*/
+@media (max-width:767px){
+    .book{
+        top: 392%;
+        position: relative;
+        width: 100%;
+    }
+    .book h2{
+        width: 100%;
+        font-size: 36px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px){
+ .book{
+    margin-top: 20px;
+ }
+}
+/*End book*/
+/*****************************************************************/
+/*start footer*/
+@media (max-width:767px){
+    footer{
+        position: relative;
+        top: 392%;
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20%;
+    }
+    footer div{
+        width: 88%;
+        display: block;
+        float: left;
+        margin-bottom: -6%;
+    }
+    .in{
+        float: left;
+        margin-left: -3px;
+        margin-top: 8px;
+    }
+    .fin{
+        width: 100%;
+        float: left;
+        margin-top: 31%;
+        text-align: center;
+        margin-left: -1px;
+    }
+    .fin p{
+        font-size: 13px;
+        letter-spacing: 1.7px;
+    }
+    .fin span{
+        margin-left: -17px;
+    }
+   footer  #last-ic{
+        width: 0;
+        height: 0;
+        right: 18px;
+        font-size: 56px;
+        z-index: 99999999999;
+        top: 85%;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px){
+
+    footer div{
+        width: 80%;
+        margin-top: 33px;
+    }
+    footer .in{
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    .fin span {
+        display: inline-block;
+        margin-left: -29px;
+    }
+    footer  #last-ic{
+        width: 0;
+        height: 0;
+        right: 0px;
+        font-size: 55px;
+        z-index: 99999999999999999;
+    }
+    
+}
+
+
+
+
+
+
+
