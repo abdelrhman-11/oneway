@@ -366,10 +366,11 @@
                     margin-top: -42px;
                     margin-bottom: -235px;
                     background-attachment: fixed;
-                    -webkit-background-size: cover;
-                          -moz-background-size: cover;
-                          -o-background-size: cover;
-                          background-size: cover;
+                    -webkit-background-size: auto;
+                          -moz-background-size: auto;
+                          -o-background-size: auto;
+                          background-size: auto;
+                        
 
                 }
                     .Experience .overlay{
@@ -387,7 +388,8 @@
             @media (min-width:992px){
             .Experience{
                 margin-top: -40px;
-                margin-bottom: -282px;            }
+                margin-bottom: -282px;           
+                    }
             .Experience h2{
                 width: 73%;
                 position: relative;
