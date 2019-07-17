@@ -172,6 +172,10 @@
             .one .latter{
                 font-size: 17px;
             }
+                      .one .wow{
+                animation: none;
+                transition: none;
+            }
             }
 
 /* End one*/
@@ -324,6 +328,10 @@
                     height: auto;
                     padding-bottom: 10px;
                 }
+              .Destinations .wow{
+                        animation: none;
+                        transition: none;
+                      
             }
             @media (min-width:992px){
                 .Destinations{
@@ -538,6 +546,11 @@
                     text-align: center;
 
                 }
+                  .blog .wow{
+                        animation: none;
+                        transition: none;
+                      
+            }
             }
                 
 /*End blog*/
