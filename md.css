@@ -365,11 +365,11 @@
                 .Experience{
                     margin-top: -42px;
                     margin-bottom: -235px;
-                    background-attachment: fixed;
-                    -webkit-background-size: auto;
-                          -moz-background-size: auto;
-                          -o-background-size: auto;
-                          background-size: auto;
+                     background-attachment: scroll;
+                    -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;
+                          background-size: cover;
                         
 
                 }
