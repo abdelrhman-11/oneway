@@ -7,7 +7,9 @@
     font-size: 2rem;
 
 }
-
+html{
+       font-size: 2rem;
+}
 /*start navbar*/
             .navbar{
                 width: 100%;
