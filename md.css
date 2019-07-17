@@ -366,6 +366,10 @@
                     margin-top: -42px;
                     margin-bottom: -235px;
                 }
+                    .Experience .overlay{
+                         opacity: 0.7;
+       
+                    }    
                 .Experience h2{
                     left: 0;
                     width: 100%;
