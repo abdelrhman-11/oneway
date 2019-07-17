@@ -365,6 +365,8 @@
                 .Experience{
                     margin-top: -42px;
                     margin-bottom: -235px;
+                        background-size: inherit;
+
                 }
                     .Experience .overlay{
                          opacity: 0.7;
