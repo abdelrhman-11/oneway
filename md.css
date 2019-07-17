@@ -365,7 +365,9 @@
                 .Experience{
                     margin-top: -42px;
                     margin-bottom: -235px;
-                        background-size: inherit;
+                    background-size: cover;
+                    background-attachment: fixed;
+
 
                 }
                     .Experience .overlay{
