@@ -571,6 +571,10 @@
 @media (min-width:768px) and (max-width:1200px){
  .book{
     margin-top: 20px;
+    background: linear-gradient(125deg,#c18989,#ececec,#FFF, #c17f7f);
+    animation: bgAnimation 13s infinite;
+    background-size: 300%;
+    overflow: hidden;
  }
 }
 /*End book*/
