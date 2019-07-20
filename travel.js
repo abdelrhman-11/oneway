@@ -23,3 +23,20 @@ $('html,body').animate({
 scrollTop: $('#' + $(this).data('scroll')).offset().top 
 },1000);
 });
+//dynamic gallary//
+(function autoChange() {
+  $('.father .active').each(function (){
+    if (! $(this).is(':last-child')) {
+      $(this).delay(2000).fadeOut(2200, function(){
+        $(this).removeClass('active').next().addClass('active').fadeIn();
+        autoChange();
+      });
+    } else {
+      $(this).delay(2000).fadeOut(2200, function () {
+        $(this).removeClass('active');
+        $('.father img').eq(0).addClass('active').fadeIn();
+        autoChange();
+      });
+    }
+    });
+    }());
