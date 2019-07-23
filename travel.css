@@ -418,12 +418,12 @@
             .Experience{
                 width: 100%;
                 margin: 0;
-                height: 600px;
+                height: 1110vh;
                 float: left;
                 position: static;
                 margin-top: 20%;
                 background-image: url("img//hero_bg_2.jpg");
-                background-size: cover;
+                background-size: cover!important;
                 background-attachment: fixed;
             }
             .Experience .overlay{
