@@ -489,8 +489,11 @@
                     width: 100%;
                     padding-left: 6%;
                 }
+                 .ser h3{
+                    margin-left: -11%;
+                        }
                 .ser p {
-                    width: 88%;
+                       text-align: center;
 
                 }
 
