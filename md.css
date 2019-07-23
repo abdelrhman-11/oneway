@@ -491,11 +491,12 @@
                     padding-left: 6%;
                 }
               .ser p{
-                      width:80%;
+                    width:80%;
                      }
                         
                 .ser .off{
-                       text-align: center;
+                    margin-left: -11%;
+                        
                         }
 
                 .services div{
