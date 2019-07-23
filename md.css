@@ -157,15 +157,18 @@
                 overflow: initial;
               }
                 .up-flow h1 {
-                    font-size: 20px;
-                    letter-spacing: 4px;
+                 letter-spacing: 4px;
+                    font-size: 30px;
+                    margin-left: 20px;
+                    width: 100%;
 
                 }
                 .up-flow p{
-                    font-size: 10px;
-                    width: 71%;
-                    margin: 7% 50% 0% 15%;
+                     width: 71%;
+                    margin: 2% 50% 0% 18%;
+                    font-size: 16px;
                 }
+                    
             }
             @media(min-width:375px){
                 .up-flow{
