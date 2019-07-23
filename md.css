@@ -489,9 +489,7 @@
                     width: 100%;
                     padding-left: 6%;
                 }
-                 .ser h3{
-                    margin-left: -11%;
-                        }
+              
                 .ser .off{
                        text-align: center;
 
@@ -516,10 +514,7 @@
 
                 }
                 @media (min-width:375px){
-                    .ser h3{
-                        margin-left: -35%;
-
-                    }
+                 
                 }
                 @media (min-width:768px){
                 .services{
