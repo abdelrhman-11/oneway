@@ -617,7 +617,7 @@
                 {
                     .blog{
                         width: 92%;
-                        height: 925px;
+                        height: 970px;
                     }
                     .blog .bloga,.blogb{
                         width: 47%;
@@ -663,7 +663,8 @@
             }
             @media(min-width:1044px){
                 .blog .butt{
-                    margin-top: 61%;
+                       margin-top: 64%;
+
 
                 }
             }  
