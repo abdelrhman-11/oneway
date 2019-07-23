@@ -538,7 +538,11 @@
                 }
 
                 }
-
+                @media (min-width:922px){
+                  .ser h3{
+                            margin-left: -85px;
+                        }
+                }
                 @media (min-width:1200px){
                 .ser div{
                     width: 23%;
