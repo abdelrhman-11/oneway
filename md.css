@@ -656,7 +656,11 @@
                 }
             }
             @media(min-width:1024px){
-                .blog .butt{
+              .blog{
+                        width: 92%;
+                        height: 970px;
+                    }
+                    .blog .butt{
                     margin-top: 70%;
 
                 }
