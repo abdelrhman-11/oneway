@@ -1,0 +1,908 @@
+
+/*start navbar*/
+@media (max-width:320px){
+    .navbar .list {
+        position: relative;
+    left: -13px;
+    }
+}
+@media (max-width:767px){
+
+    .navbar span{
+        display: none;
+    }
+   .navbar a{
+    margin-left: 0;
+
+   }
+   @media(min-width:375px){
+    .navbar .list{
+        position: absolute;
+        left: 86%;
+    }
+   }
+    .navbar ul{
+        float: left;
+        display: block;
+        width: 97%;
+        z-index: 9999999999999999;
+        background: white;
+        color: black;
+        text-align: left;
+        margin-left: -25%;
+        border-radius: 7px;
+        display: none;
+        position: inherit;
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        line-height: 3;
+    }
+    .navbar .list{
+        display: block;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+   .navbar a{
+    margin-left: -2px;
+   }
+    .inav{
+        display: none;
+    }
+
+    .navbar ul{
+        float: left;
+        display: block;
+        width: 97%;
+        z-index: 9999999999999999;
+        background: white;
+        color: black;
+        text-align: left;
+        margin-left: -25%;
+        border-radius: 7px;
+        display: none;
+        text-align: center;
+        display: block;
+        display: block;
+        float: left;
+        display: none;
+        position: inherit;
+}
+
+.navbar li {
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 15px;
+    font-size: 22px;
+    display: block;
+}
+     .navbar .list{
+        display: block;
+        font-size: 47px;
+
+    }
+    .navbar .listt {
+        display: block;
+        float: left;
+        width: 80%;
+        height: 93%;
+
+    }
+    .listt li{
+        display: block;
+        text-align: center;
+    }
+   
+}
+
+@media (min-width:992px){
+    .navbar ul,span{
+        display: block;
+    }
+    .navbar .inav {
+        display: block;
+    }
+    .navbar .list{
+        display: none;
+    }
+    .navbar .listt{
+        display: block;
+    }
+    .navbar li{
+        font-size: 18px;
+    }
+}
+@media (min-width:1200px){
+    .navbar a{
+        margin-left: 80px;
+       }
+    .navbar ul{
+        display: block;
+    }
+    .inav{
+        display: block;
+    }
+
+}
+
+
+/*end navbar*/
+/*****************************************************************/
+/*start book*/
+@media (min-width:300px) and (max-width:500px){
+.back{
+height: 100vh;
+}
+.back .overlay{
+    height: 77%;
+}
+}
+
+
+/*end book*/
+/*****************************************************************/
+/*Start back*/
+@media(min-width:300px) and (max-width:500px){
+    .up-flow{
+        margin-top: 125px;
+        }   
+    .up-flow h1 {
+        font-size: 17px;
+        font-weight: 1000;
+        letter-spacing: 4px;
+    }
+    .up-flow p{ 
+        font-size: 13px;
+        font-weight: 900;
+        width: 80%;
+        margin: auto;
+    }
+    .up-flow button{
+        padding: 13px;
+        margin-top: 10px;
+    }
+}
+
+    @media (min-width:501px) and (max-width:768px){
+      .up-flow{
+        width: 93%;
+        margin-left: 0;
+        text-align: center;
+        overflow: initial;
+      }
+        .up-flow h1 {
+         letter-spacing: 4px;
+            font-size: 30px;
+            margin-left: 20px;
+            width: 100%;
+
+        }
+        .up-flow p{
+             width: 71%;
+            margin: 2% 50% 0% 18%;
+            font-size: 16px;
+        }
+            
+    }
+    @media(min-width:375px){
+        .up-flow{
+            height: 222px;
+            margin-top: 119px;
+         
+        }
+    }
+    @media (min-width:768px){
+        .up-flow h1 {
+            font-size: 40px;
+        }
+        .up-flow p{
+            font-size: 16px;
+        }
+    }
+    @media (min-width:992px){
+        .up-flow h1 {
+            font-size: 55px;
+        }
+        .up-flow p{
+            font-size: 20px;
+        }
+    }
+    @media (min-width:1200px){
+        .up-flow h1 {
+            font-size: 55px;
+
+        }
+        .up-flow p{
+            font-size: 20px;
+        }
+    }
+
+ 
+
+/*End back*/
+/*****************************************************************/
+/* start one*/
+@media (min-width:300px) and (max-width:500px){
+.one{
+    position: unset;
+    width: 100%;
+    margin-top: -30%;
+    height: 1025px;
+}
+.one div{
+    height: 340px;
+    width: 100%;
+    display: block;
+    margin-bottom: 7px;}
+}
+.one .latter{
+    margin: 0 0 0 -27px;
+    width:100%;
+}
+  
+    @media (min-width:501px) and (max-width:767px){
+  .one{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    background: itlr;
+    height: 1679px;
+  }
+        .one div{
+        height: 550px;
+        margin-bottom: 30px;
+        width: 60%;
+        margin: 8px 0 8px 20%;
+
+    }
+   
+    .one .latter{
+        width: 84%;
+        margin: auto;
+    }
+    }
+    
+    @media (min-width:768px){
+    .one {
+            margin-left: -6px;
+            margin-top: 17px;
+        }
+    .one .wow{
+        animation: none;
+        transition: none;
+    }
+ 
+    .one div{
+        width: 29%;
+        margin-right: 29px;
+    }
+    .one .latter{
+        font-size: 17px;
+        
+    }
+
+    }
+
+/* End one*/
+/*****************************************************************/
+/*start 3 ways*/
+@media (max-width:767px){
+.ways{
+    margin-left: 7%;
+}
+.ways div{
+    width: 94%;
+    float: left;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 32px;
+}
+.ways div span{
+    display: block;
+}
+}
+
+@media (min-width:768px){
+.ways {
+    margin-left: 59px;
+}
+.ways div{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 200px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+.ways span i{
+    margin-bottom: 24px;
+    margin-left: 1px;
+}
+}
+
+@media (min-width:992px){
+
+.ways{
+    padding-bottom: 277px;
+    margin: auto;
+    margin-left: 12%;
+}
+.ways div{
+    width: 21%;
+    float: left;
+    display: inline-block;
+    margin-right: 12%;
+}
+.ways div h2{
+    font-size: 21px;
+}
+}
+@media (min-width:1200px){
+    
+    .ways div{
+        width: 21%;
+    }
+    .ways div span{
+        display: inline-block;
+        margin-left: -184px;
+        margin-top: 9px;
+        margin-bottom: -55px;
+    }
+    .ways div i {
+        float: left;
+        margin-left: -26px;
+        margin-bottom: 0px;
+    }
+}
+
+/*End 3 ways*/
+/*****************************************************************/
+/*start Testimonials*/
+@media (max-width:767px){
+    .Testimonials{
+        background: white;
+           height: 1156px;
+            overflow: inherit;
+
+    }
+    .im{
+        width: 100%;
+        margin-left: 5px;
+        height: 521px;
+        float: left;
+        display: block;
+    
+    }
+    .cote{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+    .cote p {
+        width: 83%;
+    }
+    .im img {
+        width: 100%;
+    }
+
+}
+@media (min-width:768px){
+.cote{
+    width: 47%;
+    height: 59%;
+    margin-top: 133px;
+    margin-left: -127px;
+    float: left;
+}
+.im{
+    width: 64%;
+    margin-left: 8px;
+}
+}
+
+@media (min-width:992px){
+.cote{
+width: 50%;
+}
+}
+
+@media (min-width:1200px){
+
+    .im{
+        width: 46%;
+        margin-left: 7%;
+    }
+    .cote{
+        width: 46%;
+        height: 50%;
+        margin-top: 178px;
+    }
+}
+/*End Testimonials*/
+/*****************************************************************/
+
+/*start Testimonials*/
+@media (min-width:300px) and (max-width:500px){
+ .Destinations{
+    height: 2617px;
+    margin-top: 71%;
+ }   
+ .Destinations div{
+     width: 100%;
+ }
+}
+    @media(min-width:501px) and (max-width:767px){
+    .Destinations{
+        margin-top: 58%;
+        height: 2601px;
+    }
+             
+        .Destinations div{
+        width: 100%;
+    } 
+    .Destinations .firstD{
+        display: block;
+    }
+    }
+    @media (min-width:768px){
+        .Destinations div{
+            width: 44%;
+        } 
+        .Destinations{
+            width: 90%;
+            height: auto;
+            padding-bottom: 10px;
+        }
+    }
+    @media (min-width:992px){
+        .Destinations{
+            width: 91%;
+            margin-left: 64px;
+        }
+        .Destinations div{
+            width: 30%;
+            margin-right: 24px;
+        }
+    }
+
+    @media (min-width:1200px){
+    .Destinations{
+        margin-left: 8%;
+    }
+    }
+/*End Testimonials*/
+/*****************************************************************/
+/*start Experience*/
+    @media (max-width:767px){
+        .Experience h2{
+            left: 1%;
+            font-size: 29px;
+            width: 100%;
+            position: relative;
+        }
+    }
+    @media(min-width:375px){
+        .Experience{
+            background-size: contain;
+        }
+    }
+    @media (min-width:768px) and (max-width:992px){
+        .Experience{
+            margin: 0 0 0 0;
+
+        }
+        .Experience h2{
+            left: 0;
+            width: 100%;
+            position: relative;
+        
+        }
+
+    }
+    @media (min-width:992px) and (max-width:1024px){
+    .Experience{
+        margin: 0 0 0 0;
+
+    }          
+    .Experience h2{
+        position: relative;
+    }
+}
+ 
+/*End Experience*/
+/*****************************************************************/
+/*start a services*/
+@media (min-width:300px) and (max-width:500px){
+    .services{
+        margin-top: 0;
+    }
+   .ser h3{
+    font-size: 20px;
+    margin-left: -15px;
+   }
+    .ser .off{
+        margin-left: -3%;
+        font-size: 15px;
+    }
+    .ser div{
+        width: 90%;
+        margin-left: 43px;
+    
+    }
+    .hed{
+        margin: 50 50 0 92px;
+    }
+}
+        @media (min-width:501px) and (max-width:767px){
+        .services{
+            padding-top: 11%;
+            margin-top: -1;
+            width: 100%;
+            overflow: initial;
+            height: 2137px;
+
+        }
+                
+        .services .ser{
+            width: 100%;
+            padding-left: 6%;
+        }
+        .hed{
+        height: 106px;
+        width: 58%;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        }
+      .ser p{
+            width:80%;
+             }
+                
+        .ser .off{
+            text-align: center;
+            width: 100%;              
+          }
+        .ser h3{
+            width: 100%;
+
+        }
+        .services div{
+            width: 100%;
+        }
+        .ser span{
+            display: block;
+            float: left;
+        }
+        .ser i{
+            font-size: 21px;
+            color: #ef6c57;
+            position: relative;
+            bottom: -24px;
+            left: -24px;
+        }
+
+        }
+     
+        @media (min-width:768px){
+        .services{
+            height: 1206px;
+            position: relative;
+            top: 30px;
+            margin: -29px 0 0 0;
+
+        }
+        .hed {
+            margin: auto;
+            margin-top: 100px;
+        }
+            .ser div{
+            width: 40%;
+            margin-left: 3%;
+            margin-right: 7%;
+        }
+        .services  i{
+            text-align: left;
+        }
+
+        }
+        @media (min-width:922px){
+          .ser h3{
+                    margin-left: -85px;
+                }
+        .services{
+            margin: -31px 0 0 0;
+
+        }
+
+        }
+        @media (min-width:1200px){
+        .ser div{
+            width: 23%;
+            }
+   
+        }
+        @media (min-width:1024px){
+            .ser h3{
+                margin-left: -11%;
+
+            }
+        }
+/*End a services*/
+/*****************************************************************/
+/*Start blog*/
+@media (min-width:300px) and (max-width:500px){
+    .blog{
+        height: 1628px;
+        margin: 0;
+
+}
+.blog h2{
+    margin: 36px 0 0 0;
+
+}
+.blog .si {
+    margin: 0px 0 34px 0;
+
+}
+
+.blog .bloga{
+    height: 650px;
+    width: 100%;
+    margin: 0;
+}
+.blog .blogb{
+    height: 650px;
+    width: 100%;
+    margin: 0;
+
+}
+}
+        @media (min-width:501px) and (max-width:767px){
+            .blog{
+                width: 100%;
+                position: static;
+                margin-top: 0%;
+                height: 1391px;
+            }
+           .blog h2{
+            margin-left: -32px;
+            margin-top: 13px;
+        }                   
+           .blog .si{
+            margin-left: 0px;
+            text-align: center;
+            margin-top: -45px;
+           }
+
+            .blog .blogb{
+                width: 100%;
+                float: left;
+                margin-left: 0;
+                height: 576px;
+            }
+            .blog .bloga{
+                width: 100%;
+                float: left;
+                margin-left: 0;
+                height: 550px;
+
+            }
+            .blog span{
+                font-size: 14px;
+                padding-left: 17px;
+
+            }
+            .blog .news{
+                float: left;
+            }
+          .blog p{
+            margin-top: 2%;
+            width: 89%;
+            padding-top: 37px;
+            text-align: left;
+            padding-left: 11px;
+          }
+          .blog .butt{
+            margin: 50% 50% 0 0;
+        }
+          .blog .bloga img{
+            height: 348px;
+            width: 73%;
+          }
+          .blog .blogb img{
+            height: 348px;
+            width: 73%;
+            float: right;
+        
+          }
+         .bloga .images{
+              width: 100%;
+              height: 1%;
+          }
+          .blogb .images{
+            width: 100%;
+            height: 395px;
+            clear: left;
+        
+        }
+        .blogb h3{
+            margin: 0;
+        }
+        }
+    
+        @media (min-width:768px) and (max-width:1200px)
+        {
+            .blog{
+                width: 92%;
+                height: 970px;
+            }
+            .blog .bloga,.blogb{
+                width: 47%;
+                margin-left: 20px;
+                margin-right: 2%;
+            }
+            
+            .blog .blogb img {
+                height: 300px;
+        }
+        .blog .bloga img {
+            height: 300px;
+        }
+        .blogb{
+            position: absolute;
+            float: left;
+            right: 0;
+        }
+
+        .bloga{
+            position: absolute;
+        }
+        .blog span{
+            width: 100%;
+            margin-top: 2%;
+            color: #565656;
+            font-size: 13px;
+        }
+        
+        .blog .butt{
+            margin-top: 88%;
+        }
+        .bolog p,h3,span {
+            text-align: center;
+
+        }
+    }
+    @media(min-width:1024px){
+      .blog{
+                width: 92%;
+                height: 970px;
+            }
+            .blog .butt{
+            margin-top: 70%;
+
+        }
+    }
+    @media(min-width:1044px){
+        .blog .butt{
+               margin-top: 64%;
+
+
+        }
+    }  
+/*End blog*/
+/*****************************************************************/
+/*start book*/
+@media (min-width:300px) and (max-width:500px){
+    .book h2{
+        font-size: 20px;
+
+    }
+}
+@media (min-width:501) and (max-width:767px){
+.book{
+position: relative;
+width: 100%;
+}
+.book h2{
+font-size: 26px;
+margin-left: -10px;
+text-align: center;
+}
+.book button{
+margin-top: 12%;
+
+}
+}
+@media (min-width: 320px) and (max-width:767px){
+.book h2{
+font-size: 24px;
+margin-left: -28px;
+}
+.book button{
+margin-left: -18px;
+
+}
+}
+@media (min-width:768px) and (max-width:1200px){
+.book{
+margin-top: 20px;
+}
+}
+/*End book*/
+/*****************************************************************/
+/*start footer*/
+@media (max-width:767px){
+footer{
+position: relative;
+width: 100%;
+box-sizing: border-box;
+padding-bottom: 20%;
+}
+footer div{
+width: 88%;
+display: block;
+float: left;
+margin-bottom: -6%;
+}
+.in{
+float: left;
+margin-left: -3px;
+margin-top: 8px;
+}
+.fin{
+width: 100%;
+float: left;
+margin-top: 31%;
+text-align: center;
+margin-left: -1px;
+}
+.fin p{
+font-size: 13px;
+letter-spacing: 1.7px;
+}
+.fin span{
+margin-left: -17px;
+}
+footer  #last-ic{
+width: 0;
+height: 0;
+right: 18px;
+font-size: 56px;
+z-index: 99999999999;
+top: 85%;
+}
+}
+
+@media(min-width:768px) and (max-width:1200px){
+
+footer div{
+width: 80%;
+margin-top: 33px;
+}
+footer .in{
+margin-top: 10px;
+margin-left: -1px;
+}
+.fin span {
+display: inline-block;
+margin-left: -29px;
+}
+footer  #last-ic{
+width: 0;
+height: 0;
+right: 0px;
+font-size: 55px;
+z-index: 99999999999999999;
+}
+
+}
+
+
+
+
+
+
