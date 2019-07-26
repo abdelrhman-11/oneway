@@ -427,7 +427,7 @@ width: 50%;
 /*start Testimonials*/
 @media (min-width:300px) and (max-width:500px){
  .Destinations{
-    height: 2617px;
+    height: 2677px;
     margin-top: 71%;
  }   
  .Destinations div{
@@ -437,7 +437,7 @@ width: 50%;
     @media(min-width:501px) and (max-width:767px){
     .Destinations{
         margin-top: 58%;
-        height: 2601px;
+        height: 2677px;
     }
              
         .Destinations div{
@@ -447,13 +447,13 @@ width: 50%;
         display: block;
     }
     }
-    @media (min-width:768px){
+    @media (min-width:768px) and (max-width:992px){
         .Destinations div{
             width: 44%;
         } 
         .Destinations{
             width: 90%;
-            height: auto;
+            height: 1363px;
             padding-bottom: 10px;
         }
     }
@@ -461,6 +461,7 @@ width: 50%;
         .Destinations{
             width: 91%;
             margin-left: 64px;
+             height: 925px;
         }
         .Destinations div{
             width: 30%;
