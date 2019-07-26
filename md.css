@@ -149,12 +149,10 @@ height: 100vh;
         }   
     .up-flow h1 {
         font-size: 17px;
-        font-weight: 1000;
         letter-spacing: 4px;
     }
     .up-flow p{ 
         font-size: 13px;
-        font-weight: 900;
         width: 80%;
         margin: auto;
     }
