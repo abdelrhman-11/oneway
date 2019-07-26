@@ -475,7 +475,11 @@ width: 50%;
 /*End Testimonials*/
 /*****************************************************************/
 /*start Experience*/
-    @media (max-width:767px){
+  @media (max-width:767px){
+  .Experience{
+    background-size: cover;
+
+  }
         .Experience h2{
             left: 1%;
             font-size: 29px;
@@ -485,12 +489,13 @@ width: 50%;
     }
     @media(min-width:375px){
         .Experience{
-            background-size: contain;
+            background-size: cover;
         }
     }
     @media (min-width:768px) and (max-width:992px){
         .Experience{
             margin: 0 0 0 0;
+            background-size: cover;
 
         }
         .Experience h2{
@@ -504,6 +509,8 @@ width: 50%;
     @media (min-width:992px) and (max-width:1024px){
     .Experience{
         margin: 0 0 0 0;
+        background-size: cover;
+
 
     }          
     .Experience h2{
